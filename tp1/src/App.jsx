@@ -1,11 +1,14 @@
-import "./App.css"
-function App() {
+import Vert from "./components/Vert/Vert"
+import Bleu from "./components/Bleu/Bleu"
+import Rouge from "./components/Rouge/Rouge"
 
+function App() {
   return (
     <>
-      <div className="app">
-        <h1 className= "title" style={{color:"orange", textTransform:"uppercase",}}>Hello 3LIG3</h1>
-      </div>
+    <Vert />
+    <Rouge />
+    <Bleu />
+
     </>
   )
 }
